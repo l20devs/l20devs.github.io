@@ -1,8 +1,4 @@
-/*
-	App by FreeHTML5.co
-	Twitter: http://twitter.com/fh5co
-	URL: http://freehtml5.co
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
   margin: 0px;
@@ -35,15 +31,18 @@ html {
 #fh5co-hero-wrapper {
   height: 800px;
   width: 100%;
-  background: url("../img/banner-bg.jpg") no-repeat center;
+  background: url("../img/banner-bg-2.png") no-repeat center;
   border-radius: 0 0 50% 50% / 4%;
 }
 
+
+
+
 .main-navbar-nav .navbar-brand {
   font-size: 38px;
-  letter-spacing: 4px;
+ 
   position: relative;
-  top: -5px;
+  top: 0px;
   font-weight: 500;
 }
 
@@ -91,7 +90,7 @@ html {
 }
 
 .fh5co-hero-inner {
-  margin-top: 110px;
+  margin-top: 40px;
   position: relative;
 }
 .fh5co-hero-inner > h1 {
@@ -405,12 +404,12 @@ html {
    ========================================================================================================== */
 .fh5co-reviews-outer {
   width: 100%;
-  height: 400px;
+ 
   padding: 70px;
-  margin-top: 100px;
+
 }
 .fh5co-reviews-outer .fh5co-reviews-inner {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .fh5co-reviews-outer > h1 {
   color: #648cff;
@@ -516,8 +515,8 @@ html {
   color: #fff;
 }
 .footer-outer .column-2-3 {
-  width: 60%;
-  float: left;
+ 
+  float: none;
   height: 50px;
 }
 .footer-outer .column-3-3 {
